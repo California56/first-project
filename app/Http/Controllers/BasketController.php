@@ -94,7 +94,7 @@ class BasketController extends Controller
 
     // Обрабатывает страницу оформления заказа.
     public function basketOrder(){
-        $regions = Order::regions();
+        // $regions = Order::regions();
 
         $orderId = session('orderId');
         if (is_null($orderId)){
@@ -102,7 +102,7 @@ class BasketController extends Controller
         }
         $order = Order::find($orderId);
 
-        return view('content/order', compact('order', 'regions'));
+        return view('content/order', compact('order'));
     }
 
     public function basketConfirm(BasketConfirmRequest $request){
