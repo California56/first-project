@@ -28,7 +28,8 @@ class BasketConfirmRequest extends FormRequest
             'userPhone' => 'required|min:10|max:255',
             'userCity' => 'required|min:3|max:255',
             'userRegion' => 'required|min:3|max:255',
-            'userAdress' => 'required|min:3|max:255'
+            'userAdress' => 'required|min:3|max:255',
+            'userIndex' => 'required|min:6|max:255'
         ];
     }
 
@@ -41,6 +42,8 @@ class BasketConfirmRequest extends FormRequest
             'userCity.required' => 'Bведите город',
             'userRegion.required' => 'Выберите область',
             'userAdress.required' => 'Введите адрес',
+            'userIndex.required' => 'Введите индекс',
+            'userIndex.min' => 'Мин. количестов символов - 6',
             'max' => 'Превышен допустимый лимит ввода симоволов',
             'min' => 'Полученное значение меньше минимального значения символов'
         ];

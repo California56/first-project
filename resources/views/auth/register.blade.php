@@ -37,7 +37,7 @@
 									@error('password')
 										<div style="color:red;">{{ $message }}</div>
 									@enderror
-									<input type="password" id="password" class="form-control shadow-none" name="password"  placeholder="Минимальное количество символов - 5">
+									<input type="password" id="password" class="form-control shadow-none" name="password"  placeholder="Мин. количество символов - 5">
 								</div>
 
 								<div class="form-group">
