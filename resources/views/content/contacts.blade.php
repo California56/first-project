@@ -17,7 +17,7 @@
             <b>Телефон|WhatsApp|Viber|Telegram</b> - <a href="https://wa.me/79088769117" > 8-908-876-91-17</a><br>
             <b>E-mail</b> - <a href="mailto:voshod8574@mail.ru">voshod8574@mail.ru</a>
         </p>
-        <br>
+        <!-- <br>
         <h4>Напишите нам</h4>
         <div class="dropdown-divider"></div>
         @if(session()->has('success'))
@@ -59,6 +59,6 @@
                     <button class="btn btn-success shadow-none">Отправить</button>
                 </div>
             </form>
-        @endif
+        @endif -->
     </div>	
 @endsection

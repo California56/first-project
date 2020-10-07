@@ -116,7 +116,7 @@ class BasketController extends Controller
         
         if ($success){
             session()->flash('success', 'Ваш заказ принят в обработку!');
-            Mail::to('voshod8574@mail.ru')->send(new OrderCreated());
+            // Mail::to('voshod8574@mail.ru')->send(new OrderCreated());
         } else {
             session()->flash('warning', 'Случилась ошибка!');
         }
