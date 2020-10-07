@@ -12,7 +12,7 @@
     @if(session()->has('success'))
         <div class="emptyCart">
             <div class="row justify-content-center">
-                <div class="col-md-6 col-sm-8 col-10">
+                <div class="col-md-7 col-sm-8 col-10">
                     <p>Ваш заказ принят в обработку!<br>
                     Мы перезвоним Вам в ближайшее время!</p>
                     <a href="{{ route('index') }}" class="btn btn-success btn-block shadow-none">Продолжить покупки</a>
