@@ -64,7 +64,7 @@
 			<ul class="nav navbar-nav mr-auto nav-fill">
 				<li class="nav-item dropdown">
 					<a class="nav-link nav-link--menu dropdown-toggle shadow-none" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Каталог товаров
+						Продукция
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						@foreach($categoryList as $oneCategory)
