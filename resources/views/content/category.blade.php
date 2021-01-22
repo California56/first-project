@@ -17,7 +17,7 @@
 
 	<div class="alert alert-custom alert-secondary" role="alert">
 		<h4 class="alert-heading">{{$category->category}} </h4>
-		<div class="dropdown-divider"></div>
+		<!-- <div class="dropdown-divider"></div> -->
 		{{$category->description}}
 	</div>
 
