@@ -19,7 +19,7 @@
             <b>Telegram</b> - <a href="https://t.me/muhomor72">muhomor72</a><br>
             <b>instagram</b> - <a href="https://www.instagram.com/sib_muhomor/?hl=ru">sib_muhomor</a><br>
         </p>
-        <p>Россия,Тюменская область,г.Тюмень</p>
+        <p>Россия, Тюменская область, г.Тюмень</p>
         <!-- <br>
         <h4>Напишите нам</h4>
         <div class="dropdown-divider"></div>

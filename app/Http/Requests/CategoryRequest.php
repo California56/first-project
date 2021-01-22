@@ -25,7 +25,7 @@ class CategoryRequest extends FormRequest
     {
         $rules = [
             'category' => 'required|min:3|max:255|unique:categories,category',
-            'description' => 'required|min:5'
+            // 'description' => 'required|min:5'
         ];
 
         if($this->route()->named('categories.update')){
@@ -39,7 +39,7 @@ class CategoryRequest extends FormRequest
         return [
             'required' => 'Поле обязательно для ввода!',
             'min' => 'Минимальное количество символов - 3!',
-            'description.min' => 'Минимальное количество символов - 5!',
+            // 'description.min' => 'Минимальное количество символов - 5!',
             'unique' => 'Такая категория уже существует!'
         ];
     }
