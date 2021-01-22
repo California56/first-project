@@ -32,7 +32,7 @@
                     @if($product->category_id == 6)
                         <p><b>Вес:</b> <span class="shop__digits shop__digits--product"> {{$product->weight}} </span> грамм.</p>
                     @else 
-                        <p><b>Обьём:</b> <span class="shop__digits shop__digits--product"> {{$product->weight}} </span> кг.</p>
+                        <p><b>Вес:</b> <span class="shop__digits shop__digits--product"> {{$product->weight}} </span> кг.</p>
                     @endif
         
                     <p><b>Цена:</b> <span class="shop__digits shop__digits--product"> {{$product->price}} </span> рублей.</p>
