@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 class Order extends Model
 {
-    public $shipping = 387;
+    public $shipping = 380;
 
     public function products(){
         return $this->belongsToMany(Product::class)->withPivot('count')->withTimestamps();
