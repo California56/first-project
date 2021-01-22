@@ -4,10 +4,10 @@
 			<img class="shop__image" src="{{Storage::url($product->image)}}">
 			<div class="shop__title">{{$product->name}}</div>
 		</a>
-		@if($product->category_id == 1)
+		@if($product->category_id == 6)
 			<div class="shop__weight"><b>Вес:</b><span class="shop__digits"> {{$product->weight}} </span>грамм.</div>
 		@else 
-			<div class="shop__weight"><b>Обьём:</b><span class="shop__digits"> {{$product->weight}} </span>мл.</div>
+			<div class="shop__weight"><b>Обьём:</b><span class="shop__digits"> {{$product->weight}} </span>кг.</div>
 		@endif
 		<div class="shop__price"><b>Цена:</b><span class="shop__digits"> {{$product->price}} </span>рублей.</div>
 		<form action="{{ route('basket-add', $product)}}" method="POST">
