@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
 @section('title')
-	Сибирский Мухомор - {{$category->category}}
+	@if($category->id = 6)
+		Купить Мухоморы в Тюмени|Сибирский Мухомор
+	@else
+		Мухоморы оптом|Сибирский Мухомор
+	@endif
 @endsection
 
 @section ('breadcrumb')

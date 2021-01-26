@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-	Сибирский Мухомор - Главная
+	Мухоморы в Тюмени.Купить мухоморы из Сибири|Сибирский Мухомор
 @endsection
 
 @section ('breadcrumb')
