@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    {{$product->name}} {{$product->weight}} грамм|Сибирский Мухомор
+    {{$product->name}}|Сибирский Мухомор
 @endsection
 
 @section('breadcrumb')
