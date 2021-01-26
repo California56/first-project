@@ -4,6 +4,10 @@
     {{$product->name}}|Сибирский Мухомор
 @endsection
 
+@section('meta-description')
+	<meta name="description" content="Купить {{$product->name}} в Тюмени.Всегда в наличии.Доставка по всей России." />
+@endsection
+
 @section('breadcrumb')
     <li class="active li-max"><a href="{{ route('category', $category) }}">{{$category->category}}</a></li>
     <li class="li-max">/</li>

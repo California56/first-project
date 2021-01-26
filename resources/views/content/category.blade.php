@@ -1,11 +1,20 @@
 @extends('layouts.app')
 
 @section('title')
-	@if($category->id = 6)
+	@if($category->id == 6)
 		Купить Мухоморы в Тюмени|Сибирский Мухомор
 	@else
 		Мухоморы оптом|Сибирский Мухомор
 	@endif
+@endsection
+
+@section('meta-description')
+	@if($category->id == 6)
+		<meta name="description" content="Мухоморы.Сушеные шляпки Мухомора из Сибирской тайги!Всегда в наличии.Покупайте в нашем интернет-магазине!" />
+	@else
+		<meta name="description" content="Мухоморы оптом.Сушеные шляпки Мухомора оптом.Всегда в наличии!" />
+	@endif
+	
 @endsection
 
 @section ('breadcrumb')

@@ -4,6 +4,10 @@
 	Мухоморы в Тюмени.Купить мухоморы из Сибири|Сибирский Мухомор
 @endsection
 
+@section('meta-description')
+	<meta name="description" content="Мухоморы.Сушеные шляпки Мухомора в Тюмени.Всегда в наличии.Покупайте в нашем интернет-магазине!" />
+@endsection
+
 @section ('breadcrumb')
 	<li class="active">Добро пожаловать!</li>
 @endsection
