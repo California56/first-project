@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta-description')
-	<meta name="description" content="Купить {{$product->name}} в Тюмени.Всегда в наличии.Доставка по всей России." />
+	<meta name="description" content="Купить {{$product->name}} в Тюмени.Всегда в наличии!Звоните +7(908)876-91-17" />
 @endsection
 
 @section('breadcrumb')

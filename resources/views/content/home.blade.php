@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('title')
-	Мухоморы в Тюмени.Купить мухоморы из Сибири|Сибирский Мухомор
+	Купить Мухоморы в Тюмени|Сибирский Мухомор
 @endsection
 
 @section('meta-description')
-	<meta name="description" content="Мухоморы.Сушеные шляпки Мухомора в Тюмени.Всегда в наличии.Покупайте в нашем интернет-магазине!" />
+	<meta name="description" content="Мухоморы.Сушеные шляпки Мухомора из Сибири.Всегда в наличии!Звоните +7(908)876-91-17" />
 @endsection
 
 @section ('breadcrumb')
