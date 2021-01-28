@@ -29,8 +29,9 @@
                 По желанию оптовика, после отправки партии мухомора сообщаем потребителю где его товар и когда ожидать, отвечаем за качество сушеного мухомора и за доставку потребителю.
             
             </p>
-            <img class="logo-img" src="{{asset('images/visa-and-mastercard-logo-26.png')}}">
             <p> По всем вопросам обращайтесь по телефону <a href="https://wa.me/79088769117" > 8-908-876-91-17</a> или по эл.почте <a href="maito:voshod8574@mail.ru" >voshod8574@mail.ru</a>.
             </p>
+
+            <img class="logo-img" src="{{asset('images/visa-and-mastercard-logo-26.png')}}">
         </div>	
 @endsection
