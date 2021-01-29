@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    {{$product->name}}|Сибирский Мухомор
+    {{$product->name}} | Сибирский Мухомор
 @endsection
 
 @section('meta-description')

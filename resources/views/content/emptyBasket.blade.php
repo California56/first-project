@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Корзина|Сибирский Мухомор 
+    Корзина | Сибирский Мухомор 
 @endsection
 
 @section ('breadcrumb')

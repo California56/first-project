@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-	Сибирский Мухомор - Ошибка 404
+    Ошибка 404 | Сибирский Мухомор
 @endsection
 
 @section ('breadcrumb')

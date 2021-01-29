@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-	Личный кабинет|Сибирский Мухомор
+	Личный кабинет | Сибирский Мухомор
 @endsection
 
 @section ('breadcrumb')

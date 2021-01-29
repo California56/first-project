@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-	Купить Мухоморы в Тюмени|Сибирский Мухомор
+	Купить Мухоморы в Тюмени | Сибирский Мухомор
 @endsection
 
 @section('meta-description')

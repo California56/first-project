@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-	Сибирский Мухомор - Вход
+    Вход | Сибирский Мухоморы
 @endsection
 
 @section('breadcrumb')
