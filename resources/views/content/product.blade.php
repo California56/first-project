@@ -10,7 +10,7 @@
 
 @section('breadcrumb')
     <li class="active li-max"><a href="{{ route('category', $category) }}">{{$category->category}}</a></li>
-    <li class="li-max">/</li>
+    <li class="li-max">|</li>
     <li class="breadcrumb-product">{{$product->name}}</li>
 @endsection
 
