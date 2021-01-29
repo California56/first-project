@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-	Сибирский Мухомор - Оплата и доставка
+    Оплата и доставка|Сибирский Мухомор
 @endsection
 
 @section ('breadcrumb')
