@@ -878,7 +878,7 @@ label.required:after{
 	}
 
 	.breadcrumbs {
-		margin-top: 8px
+		margin-top: 8px;
 	}
 
 	.breadcrumb li.active, .breadcrumb li.breadcrumb-product {
