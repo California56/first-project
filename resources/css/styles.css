@@ -865,6 +865,7 @@ label.required:after{
 @media(max-width: 420px){
 	.breadcrumb {
 		font-size: 13px;
+		display: none!important;
 	}
 
 	.startPage:after {
@@ -877,7 +878,7 @@ label.required:after{
 	}
 
 	.breadcrumbs {
-		margin-top: 0;
+		margin-top: 8px
 	}
 
 	.breadcrumb li.active, .breadcrumb li.breadcrumb-product {
