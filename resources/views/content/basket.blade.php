@@ -101,11 +101,11 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td colspan="3"><h5> Стоимость товаров:</h5></td>
+					<td colspan="3"><h6> Стоимость товаров:</h6></td>
 					<td colspan="2"><span class="shop__digits">{{ $order->getFullPrice() }} руб.</span></td>
 				</tr>
 				<tr>
-					<td colspan="3"><h5>Стоимость доставки:</h5></td>
+					<td colspan="3"><h6>Стоимость доставки:</h6></td>
 					<td colspan="2"><span class="shop__digits">{{ $order->shipping }} руб.</span> </td>
 				</tr>
 				<tr>
