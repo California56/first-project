@@ -21,7 +21,7 @@
         </p>
         <p>Вы можете связаться с нами по следующим контактам:</p>
         <p>
-            <b>Телефон|WhatsApp|Viber</b> - <a href="https://wa.me/79088769117" > 8-908-876-91-17</a><br>
+            <b>Телефон|WhatsApp</b> - <a href="https://wa.me/79088769117" > 8-908-876-91-17</a><br>
             <b>E-mail</b> - <a href="mailto:voshod8574@mail.ru">voshod8574@mail.ru</a><br>
             <b>Telegram</b> - <a href="https://t.me/muhomor72">muhomor72</a><br>
             <b>instagram</b> - <a href="https://www.instagram.com/sib_muhomor/?hl=ru">sib_muhomor</a><br>
