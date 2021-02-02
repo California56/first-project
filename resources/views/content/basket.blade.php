@@ -14,7 +14,7 @@
 		<table class="table table-striped border table-cart d-block d-sm-none">
 			<thead>
 				<tr>		
-					<th scope="col">Описание</th>
+					<th scope="col">Товар</th>
 					<th scope="col">Количество</th>
 					<th scope="col">Итого</th>
 				</tr>
