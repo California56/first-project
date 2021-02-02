@@ -43,7 +43,7 @@
                 </div>
                 
                 <form action="{{ route('basket-add', $product)}}" method="POST">
-			        <button type="submit" class="shop__addToCart">В корзину</button>
+			        <button type="submit" class="shop__addToCart shop__addToCart--product">В корзину</button>
 			        @csrf
 		        </form>
             </div>
