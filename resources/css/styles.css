@@ -860,7 +860,9 @@ label.required:after{
 	.navbar{
 		padding: 0!important;
 	}
+}
 
+@media(max-width: 992px){
 	.product-info {
 		text-align: center;
 	}
