@@ -10,23 +10,19 @@
 
 @section('content')
 	<div class="table-responsive-sm">
-		<table class="table table-striped border table-cart">
+
+		<table class="table table-striped border table-cart d-block d-sm-none">
 			<thead>
-				<tr>
-					<th class="d-none d-sm-block" scope="col">Товар</th>
+				<tr>		
 					<th scope="col">Описание</th>
-					<th class="d-none d-sm-block" scope="col">Цена</th>
 					<th scope="col">Количество</th>
 					<th scope="col">Итого</th>
-					<th  class="d-none d-sm-block" scope="col"><i class="fas fa-trash-alt"></th>
 				</tr>
 			</thead>
 			<tbody>
 				@foreach($order->products as $product)
 					<tr>
-						<td class="d-none d-sm-block" style="width: 15%"><img class="image image--cart" src="{{Storage::url($product->image)}}"></td>
 						<td><a href="{{route('product', [$product->category,$product->id])}}">{{$product->name}}</a></td>
-						<td class="d-none d-sm-block" >{{$product->price}} руб.</td>
 						<td>
 							<div class="btn-group form-inline">
 								<form action="{{route('basket-add', $product)}}" method="POST">
@@ -45,7 +41,47 @@
 							</div>
 						</td>
 						<td>{{$product->getPriceForCount()}} руб.</td>
-						<td class="d-none d-sm-block">
+					</tr>
+				@endforeach
+			</tbody>
+		</table>
+
+		<table class="table table-striped border table-cart d-none d-sm-block">
+			<thead>
+				<tr>
+					<th scope="col">Товар</th>
+					<th scope="col">Описание</th>
+					<th scope="col">Цена</th>
+					<th scope="col">Количество</th>
+					<th scope="col">Итого</th>
+					<th scope="col"><i class="fas fa-trash-alt"></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach($order->products as $product)
+					<tr>
+						<td style="width: 15%"><img class="image image--cart" src="{{Storage::url($product->image)}}"></td>
+						<td><a href="{{route('product', [$product->category,$product->id])}}">{{$product->name}}</a></td>
+						<td>{{$product->price}} руб.</td>
+						<td>
+							<div class="btn-group form-inline">
+								<form action="{{route('basket-add', $product)}}" method="POST">
+									<div class="cart_quantity_button">
+										<button type="submit" class=" btn btn-cart shadow-none" > + </button>
+									</div>
+									@csrf
+								</form>
+								{{$product->pivot->count}}
+								<form action="{{route('basket-remove', $product)}}" method="POST">
+									<div class="cart_quantity_button">
+										<button type="submit" class="btn btn-cart shadow-none" > - </button>
+									</div>
+									@csrf
+								</form>
+							</div>
+						</td>
+						<td>{{$product->getPriceForCount()}} руб.</td>
+						<td>
 							<form action="{{route('basket-delete', $product)}}" method="POST">	
 								<button type="submit" class="btn-cart-delete" ><i class="fa fa-times"></i></button>
 								@csrf
@@ -54,8 +90,9 @@
 					</tr>
 				@endforeach
 			</tbody>
-		</table><br>
+		</table>
 		
+		<br>
 		<table class="table table-striped border table-cart">
 			<thead>
 				<tr>
