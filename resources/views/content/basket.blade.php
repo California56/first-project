@@ -126,7 +126,7 @@
 		<div class="col-sm-12 col-lg-6 border">
 			<div class="order-block-inside">
 				<p class="text-center"><a href="{{ route('basket-order')}}" class="btn btn-success shadow-none">Оформить заказ</a></p>
-				<p>Вы можете оформить заказ на нашем сайте заполнив все необходимые контактные данные. 
+				<p class="text-center">Вы можете оформить заказ на нашем сайте заполнив все необходимые контактные данные. 
 				Для оформления заказа регистрация не нужна.</p>
 			</div>
 		</div>
