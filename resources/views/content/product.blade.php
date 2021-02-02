@@ -31,7 +31,7 @@
             <div class="alert alert-custom alert-secondary col-lg-4 col-sm-12 product-info">
                 <h4>Информация</h4>
                 <div class="product-stats">
-                    <p><b>Наличие:</b> в наличии.</p>
+                    <p><b>Наличие:</b> В наличии.</p>
 
                     @if($product->category_id == 6)
                         <p><b>Вес:</b> <span class="shop__digits shop__digits--product"> {{$product->weight}} </span> грамм.</p>
