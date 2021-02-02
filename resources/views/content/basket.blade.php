@@ -119,7 +119,7 @@
 		<div class=" col-lg-6 border d-none d-sm-none d-md-none d-lg-block order-block-left" >
 			<div class="order-block-inside">
 				<p class="text-center"><a href="{{ route('oplata-i-dostavka') }}" class="btn btn-success shadow-none">Подробнее о доставке</a></p>
-				<p>Заказ будет отправлен Почтой России в тот же день. После этого мы свяжемся с Вами, чтобы уведомить об отправке и сообщить трек-номер.
+				<p class="text-center">Заказ будет отправлен Почтой России в тот же день. После этого мы свяжемся с Вами, чтобы уведомить об отправке и сообщить трек-номер.
 				</p>	
 			</div>	
 		</div>
