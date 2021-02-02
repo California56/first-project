@@ -78,6 +78,9 @@
 					</div>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link nav-link--menu .d-block .d-sm-none" href="{{ route('index') }}">Главная</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link nav-link--menu" href="{{ route('kak-zakazat') }}">Как заказать</a>
 				</li>
 				<li class="nav-item">
