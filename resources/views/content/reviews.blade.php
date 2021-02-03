@@ -4,6 +4,10 @@
     Отзывы | Сибирский Мухомор
 @endsection
 
+@section('meta-description')
+	<meta name="description" content="Оставьте отзыв о нашей работе, нам очень важно Ваше мнение!" />
+@endsection
+
 @section ('breadcrumb')
 	<li class="active">Отзывы</li>
 @endsection
