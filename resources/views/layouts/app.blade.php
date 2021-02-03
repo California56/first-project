@@ -5,7 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>@yield('title')</title>
         @yield('meta-description')
-        <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}">
+        <!-- <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}"> -->
+            <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('images/favicon/apple-touch-icon.png') }}">
+            <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicon/favicon-32x32.png') }}">
+            <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicon/favicon-16x16.png') }}">
+            <link rel="manifest" href="{{ asset('images/favicon/site.webmanifest') }}">
+            <link rel="mask-icon" href="{{ asset('images/favicon/safari-pinned-tab.svg') }}" color="#5bd561">
+            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="theme-color" content="#ffffff">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
