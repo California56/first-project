@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta-description')
-	<meta name="description" content="Мухоморы. Сушеные шляпки Мухомора из Сибири. Всегда в наличии. Отправка в в день заказа. Оформите заказ у нас на сайте!" />
+	<meta name="description" content="Мухоморы. Сушеные шляпки Мухомора из Сибири. Всегда в наличии. Отправка в в день заказа. Оформите заказ у нас на сайте!">
 @endsection
 
 @section ('breadcrumb')

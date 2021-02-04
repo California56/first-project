@@ -5,7 +5,7 @@
 @endsection
 
 @section('meta-description')
-	<meta name="description" content="Оставьте отзыв о нашей работе, нам очень важно Ваше мнение!" />
+	<meta name="description" content="Оставьте отзыв о нашей работе, нам очень важно Ваше мнение!">
 @endsection
 
 @section ('breadcrumb')
