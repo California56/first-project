@@ -19,6 +19,18 @@ a:hover{
 	text-decoration: underline;
 }
 
+.link_attention {
+	color:#28a745;
+	text-decoration: underline;
+}
+
+.link_attention:hover {
+	color:#008E3A;
+	text-decoration: none;
+}
+
+
+
 .classic-link {
 	color: #333;
 	text-decoration: none;
