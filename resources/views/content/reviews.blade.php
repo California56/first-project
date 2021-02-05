@@ -16,7 +16,7 @@
     <div class="alert alert-custom alert-secondary ">
         <h4>Отзывы</h4>
         <div class="dropdown-divider"></div>
-        <div> Здесь Вы можете прочесть отзывы о нашей работе, еще отзывы есть в нашем  <a href="https://www.instagram.com/stories/highlights/18084359224238927/?hl=ru">instagram</a>, а также можете поделиться впечатлениями о покупке в нашем интернет-магазине.</div>
+        <div> Здесь Вы можете прочесть отзывы о нашей работе, еще отзывы есть в нашем  <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.instagram.com%2Fs%2FaGlnaGxpZ2h0OjE4MDg0MzU5MjI0MjM4OTI3%3Figshid%3Dbj2ep6lfstx%26story_media_id%3D2472977899015066464&cc_key=">instagram</a>, а также можете поделиться впечатлениями о покупке в нашем интернет-магазине.</div>
     </div>
 
     @if(session()->has('review-success'))
