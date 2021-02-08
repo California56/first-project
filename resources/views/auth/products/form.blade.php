@@ -72,7 +72,7 @@
                         @error('description')
                             <div class="alert alert-danger">{{ $message }}</div>
                          @enderror
-                        <textarea name="description" id="description" class="form-control shadow-none" cols="151" rows="5">{{ old('description', isset($product) ? $product->description : null) }}</textarea>
+                        <textarea wrap="soft" name="description" id="description" class="form-control shadow-none" cols="151" rows="5">{{ old('description', isset($product) ? $product->description : null) }}</textarea>
                     </div>
                    
                     <div class="form-group">
