@@ -53,6 +53,6 @@
     <div class="alert alert-custom alert-secondary product-description">
         <h4>Описание</h4>
         <div class="dropdown-divider"></div>
-        <p style="white-space:pre;">{{ $product->description }}</p>
+        <p>{{ $product->description }}</p>
     </div>	
 @endsection
