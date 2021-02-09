@@ -36,7 +36,7 @@
 		</p>
 	</div>
 
-	<h4 class="alert-heading alert-heading--mobile">Мухомор Красный</h4>
+	<h4 class="alert-heading alert-heading--mobile">Мухомор Красный|Пантерный</h4>
 	<div class="dropdown-divider"></div>
 
 	<div class="content__shop">
