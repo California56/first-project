@@ -22,7 +22,7 @@ class MainController extends Controller
         $category = Category::where('id', $id)->first();
 
         if (!is_null($category)){
-            $products = $category->products()->paginate(6);
+            $products = $category->products()->paginate(9);
             return view('content/category', compact('category', 'products'));
         } else {
             return view('errors.404');
