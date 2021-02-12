@@ -54,5 +54,6 @@
         <h4>Описание</h4>
         <div class="dropdown-divider"></div>
         <p style="white-space:pre-line;">{{ $product->description }}</p>
+        <p>Телефон: <a class="link_attention" href="https://wa.me/79088769117">8-908-876-91-17</a> Звоните! Решим любые вопросы!</p>
     </div>	
 @endsection
