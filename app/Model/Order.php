@@ -36,10 +36,10 @@ class Order extends Model
             }
             $this->name = $name;
             $this->phone = $phone;
-            $this->region = $region;
-            $this->city = $city;
-            $this->adress = $adress;
-            $this->index = $index;
+            // $this->region = $region;
+            // $this->city = $city;
+            // $this->adress = $adress;
+            // $this->index = $index;
             $this->status = 1;
             $this->save();
             session()->forget('orderId');
