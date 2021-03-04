@@ -113,8 +113,9 @@ class BasketController extends Controller
             return redirect()->route('basket');
         }
         $order = Order::find($orderId);
-        $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
+        $success = $order->saveOrder($request->userName, $request->userPhone);
         
+        // , $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex
         // if ($success){
         //     session()->flash('success', 'Ваш заказ принят в обработку!');
         //     Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
