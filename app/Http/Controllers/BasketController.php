@@ -121,7 +121,7 @@ class BasketController extends Controller
             session()->flash('warning', 'Случилась ошибка!');
         }
 
-        return redirect()->route('basket-empty');
+        // return redirect()->route('basket-empty');
     }
 
     public function basketEmpty() {
