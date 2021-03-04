@@ -105,6 +105,7 @@ class BasketController extends Controller
         return view('content/order', compact('order'));
     }
 
+    // Собственно оформляет заказ.
     public function basketConfirm(BasketConfirmRequest $request){
         $orderId = session('orderId');
 
@@ -114,12 +115,12 @@ class BasketController extends Controller
         $order = Order::find($orderId);
         $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
         
-        if ($success){
-            session()->flash('success', 'Ваш заказ принят в обработку!');
-            Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
-        } else {
-            session()->flash('warning', 'Случилась ошибка!');
-        }
+        // if ($success){
+        //     session()->flash('success', 'Ваш заказ принят в обработку!');
+        //     Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
+        // } else {
+        //     session()->flash('warning', 'Случилась ошибка!');
+        // }
 
         // return redirect()->route('basket-empty');
     }
