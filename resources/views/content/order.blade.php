@@ -67,22 +67,7 @@
 								@error('userRegion')
 									<div style="color:red;">{{ $message }}</div>
 								@enderror
-								<!-- <select class="form-control shadow-none" name="userRegion" id="userRegion">
-									@auth
-										<option value="" selected="selected">Выбрать</option>
-										@foreach($regions as $region) 
-											<option @if (Auth::user()->region == $region) selected="selected" @endif 
-													@if ( old('userRegion') == $region ) selected @endif>{{ $region }}
-											</option>
-										@endforeach
-									@endauth
-									@guest
-										<option value="" selected="selected">Выбрать</option>
-										@foreach($regions as $region) 
-											<option @if ( old('userRegion') == $region ) selected @endif>{{ $region }}</option>
-										@endforeach
-									@endguest
-								</select> -->
+								
 								<input type="text" name="userRegion" class="form-control shadow-none" placeholder="Тюменская область" 
 								@auth
 									value="{{ old('userRegion',  Auth::user()->region) }}"
