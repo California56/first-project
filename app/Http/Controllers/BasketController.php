@@ -107,22 +107,22 @@ class BasketController extends Controller
 
     // Собственно оформляет заказ.
     public function basketConfirm(BasketConfirmRequest $request){
-        $orderId = session('orderId');
+        // $orderId = session('orderId');
 
-        if (is_null($orderId)){
-            return redirect()->route('basket');
-        }
+        // if (is_null($orderId)){
+        //     return redirect()->route('basket');
+        // }
 
-        // $order = Order::find($orderId);
-        // $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
+        // // $order = Order::find($orderId);
+        // // $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
         
         
-        if ($success){
-            session()->flash('success', 'Ваш заказ принят в обработку!');
-            Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
-        } else {
-            session()->flash('warning', 'Случилась ошибка!');
-        }
+        // if ($success){
+        //     session()->flash('success', 'Ваш заказ принят в обработку!');
+        //     Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
+        // } else {
+        //     session()->flash('warning', 'Случилась ошибка!');
+        // }
 
         return redirect()->route('basket-empty');
     }
