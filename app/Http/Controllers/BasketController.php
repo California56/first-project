@@ -113,8 +113,8 @@ class BasketController extends Controller
             return redirect()->route('basket');
         }
 
-        $order = Order::find($orderId);
-        $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
+        // $order = Order::find($orderId);
+        // $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
         
         
         if ($success){
