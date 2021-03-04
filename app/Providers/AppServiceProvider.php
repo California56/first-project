@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {   
         view()->share('categoryList', Category::get());
-        view()->share('regions',Order::regions());
+        // view()->share('regions',Order::regions());
         view()->composer('*', function ($view) 
         {   
             

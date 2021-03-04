@@ -71,12 +71,7 @@
 								@error('region')
 									<div style="color:red;">{{ $message }}</div>
 								@enderror
-								<select class="form-control shadow-none" name="region" id="region">
-								<option value="" selected="selected">Выбрать</option>
-								@foreach($regions as $region) 
-									<option @if ( old('region') == $region ) selected @endif>{{ $region }}</option>
-								@endforeach
-								</select>
+								<input type="text" id="region" class="form-control shadow-none" name="region" value="{{ old('region')}}" placeholder="Тюменская область" >
 							</div>
 							<div class="form-group">
 								<label for="city">Город</label>
