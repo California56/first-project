@@ -109,9 +109,9 @@ class BasketController extends Controller
     public function basketConfirm(BasketConfirmRequest $request){
         $orderId = session('orderId');
 
-        // if (is_null($orderId)){
-        //     return redirect()->route('basket');
-        // }
+        if (is_null($orderId)){
+            return redirect()->route('basket');
+        }
 
         $order = Order::find($orderId);
         $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
