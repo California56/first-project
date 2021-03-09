@@ -60,6 +60,8 @@ Route::get('category/{category}/product/{product}', 'MainController@product')->n
 Route::get('contacts','ContactsController@contacts')->name('contacts');
 Route::post('send-message', 'ContactsController@sendMessage')->name('sendMessage');
 
+Route::get('mail','BasketController@mailToMe');
+
 Route::fallback(function() {
     return view('errors.404');
 });
