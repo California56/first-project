@@ -134,5 +134,6 @@ class BasketController extends Controller
 
     public function mailToMe() {
         Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
+        return view('content/emptyBasket');
     }
 }
