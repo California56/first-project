@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('info@sibmuhomor.ru'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('9WQ85amZ'),
 
     /*
     |--------------------------------------------------------------------------
