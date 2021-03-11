@@ -25,7 +25,6 @@
             <b>WhatsApp</b> - <a class="link_attention" href="https://wa.me/79088769117" > 8-908-876-91-17</a><br>
             <b>E-mail</b> - <a class="link_attention" href="mailto:voshod8574@mail.ru">voshod8574@mail.ru</a><br>
             <b>Telegram</b> - <a class="link_attention" href="https://t.me/muhomor72">muhomor72</a><br>
-            <b>instagram</b> - <a class="link_attention" href="https://www.instagram.com/sib_muhomor/?hl=ru">sib_muhomor</a><br>
         </p>
         <p>
             Если Вы заинтересовались нашей продукцией, нашими предложениями, звоните или пишите в любое время и любым удобным для Вас способом, будем рады сотрудничать с Вами.

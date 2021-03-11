@@ -16,7 +16,7 @@
     <div class="alert alert-custom alert-secondary ">
         <h4>Отзывы</h4>
         <div class="dropdown-divider"></div>
-        <div> Здесь Вы можете прочесть отзывы о нашей работе, еще отзывы есть в нашем  <a class="link_attention" href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDg0MzU5MjI0MjM4OTI3?igshid=z0q7st1kt1z8&story_media_id=2472977899015066464">instagram</a>, а также можете поделиться впечатлениями о покупке в нашем интернет-магазине.</div>
+        <div> Здесь Вы можете прочесть отзывы о нашей работе, а также поделиться впечатлениями о покупке в нашем магазине.</div>
     </div>
 
     @if(session()->has('review-success'))
