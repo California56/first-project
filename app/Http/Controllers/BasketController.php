@@ -116,10 +116,11 @@ class BasketController extends Controller
         $order = Order::find($orderId);
         $success = $order->saveOrder($request->userName, $request->userPhone, $request->userRegion, $request->userCity, $request->userAdress, $request->userIndex);
         
-        
+        // Если все прошло успешно, то выводит 'Ваш заказ принят в обработку!' и отправляет нам на почту уведомление.
         if ($success){
             session()->flash('success', 'Ваш заказ принят в обработку!');
             Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
+            Mail::to('voshod8574@mail.ru')->send(new OrderCreated());
         } else {
             session()->flash('warning', 'Случилась ошибка!');
         }
@@ -129,11 +130,6 @@ class BasketController extends Controller
 
     public function basketEmpty() {
 
-        return view('content/emptyBasket');
-    }
-
-    public function mailToMe() {
-        Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
         return view('content/emptyBasket');
     }
 }
