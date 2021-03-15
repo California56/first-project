@@ -44,6 +44,8 @@
         </script>
         <noscript><div><img src="https://mc.yandex.ru/watch/71487238" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
+        <!-- /JivoSite -->
+        <script src="//code-ya.jivosite.com/widget/mvY1f2p6vj" async></script>
     </head>
     <body class="d-flex flex-column min-vh-100">
         <div class="wrapper flex-grow-1">
