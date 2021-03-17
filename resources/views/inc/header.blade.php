@@ -77,9 +77,9 @@
 						@endforeach
 					</div>
 				</li>
-				<li class="nav-item d-block d-sm-none">
+				<!-- <li class="nav-item d-block d-sm-none">
 					<a class="nav-link nav-link--menu" href="{{ route('index') }}">Главная</a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link nav-link--menu" href="{{ route('kak-zakazat') }}">Как заказать</a>
 				</li>
