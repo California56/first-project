@@ -103,9 +103,9 @@
 						<a href="{{ route('cabinet') }}" class="nav-link nav-link--menu">Личный кабинет</a>
 					@endauth
 				</li>
-				<li class="nav-item d-lg-none">
+				<!-- <li class="nav-item d-lg-none">
 					<a class="nav-link nav-link--menu" href="{{ route('basket') }}">Корзина</a>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</nav>
