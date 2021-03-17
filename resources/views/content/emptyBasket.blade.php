@@ -10,13 +10,27 @@
 
 @section('content')
     @if(session()->has('success'))
-        <div class="emptyCart">
-            <div class="row justify-content-center">
-                <div class="col-md-7 col-sm-8 col-10">
-                    <p>Ваш заказ принят в обработку!<br>
-                    Мы перезвоним Вам в ближайшее время!</p>
-                    <a href="{{ route('index') }}" class="btn btn-success btn-block shadow-none">Продолжить покупки</a>
+
+        <div class="alert alert-custom alert-secondary product-description">
+            <h4>Ваш заказ принят!</h4> 
+            <div class="dropdown-divider"></div>
+
+            <div class="cabinet-block">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <ul>
+                            <li>Благодарим за оформление заказа!</li>
+                            <li>Мы позвоним Вам по номеру, указанному в оформлении заказа, в течение 30 минут, чтобы подтвердить заказ.</li>
+                            <li>Оплатить заказ можно на карту Сбербанка по номеру телефона <a class="link_attention" href="#" > 8-908-876-91-17</a></li>
+                            <li>Заказ отправляется после оплаты, в ближайщее возможное время.</li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row justify-content-center">
+            <div class="col-md-3">
+            <a href="{{ route('index') }}" class="btn btn-success btn-block shadow-none">Вернуться на главную</a>
             </div>
         </div>
     @else
