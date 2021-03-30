@@ -67,11 +67,11 @@
 					<div class="panel panel-primary">
 						<div class="panel-body">
 							<div class="form-group">
-								<label for="region">Область</label>
+								<label for="region">Страна и область</label>
 								@error('region')
 									<div style="color:red;">{{ $message }}</div>
 								@enderror
-								<input type="text" id="region" class="form-control shadow-none" name="region" value="{{ old('region')}}" placeholder="Тюменская область" >
+								<input type="text" id="region" class="form-control shadow-none" name="region" value="{{ old('region')}}" placeholder="Россия, Тюменская область" >
 							</div>
 							<div class="form-group">
 								<label for="city">Город</label>
