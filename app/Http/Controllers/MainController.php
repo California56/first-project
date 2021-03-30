@@ -13,7 +13,8 @@ use App\Http\Requests\ReviewRequest;
 class MainController extends Controller
 {
     public function index(){
-        $products = Product::paginate(6);
+        $products1 = Product::where('category_id', 6)->paginate(3);
+        $products2 = Product::where('category_id', 7)->paginate(3);
 
         return view('content/home', compact('products'));
     }
