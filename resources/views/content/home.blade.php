@@ -41,10 +41,7 @@
 
 	<div class="content__shop">
 		<div class="row">
-			@foreach($products1 as $product)
-				@include('inc.card')
-			@endforeach
-			@foreach($products2 as $product)
+			@foreach($products as $product)
 				@include('inc.card')
 			@endforeach
 		</div>
