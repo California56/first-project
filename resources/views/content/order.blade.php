@@ -63,12 +63,12 @@
 					<div class="panel panel-primary">
 						<div class="panel-body">
 							<div class="form-group">         
-								<label class="required" for="userRegion">Область</label>
+								<label class="required" for="userRegion">Страна, Область</label>
 								@error('userRegion')
 									<div style="color:red;">{{ $message }}</div>
 								@enderror
 								
-								<input type="text" name="userRegion" class="form-control shadow-none" placeholder="Тюменская область" 
+								<input type="text" name="userRegion" class="form-control shadow-none" placeholder="Россия, Тюменская область" 
 								@auth
 									value="{{ old('userRegion',  Auth::user()->region) }}"
 								@endauth
