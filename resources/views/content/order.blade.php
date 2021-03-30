@@ -63,7 +63,7 @@
 					<div class="panel panel-primary">
 						<div class="panel-body">
 							<div class="form-group">         
-								<label class="required" for="userRegion">Страна, Область</label>
+								<label class="required" for="userRegion">Страна и область</label>
 								@error('userRegion')
 									<div style="color:red;">{{ $message }}</div>
 								@enderror
