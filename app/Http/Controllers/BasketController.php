@@ -119,8 +119,13 @@ class BasketController extends Controller
         // Если все прошло успешно, то выводит 'Ваш заказ принят в обработку!' и отправляет нам на почту уведомление.
         if ($success){
             session()->flash('success', 'Ваш заказ принят в обработку!');
-            Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
-            Mail::to('voshod8574@mail.ru')->send(new OrderCreated());
+
+            foreach (['mr.sanchak@mail.ru','voshod8574@mail.ru','mirabella.74@mail.ru'] as $recipient) {
+                Mail::to($recipient)->send(new OrderCreated());
+            }
+
+            // Mail::to('mr.sanchak@mail.ru')->send(new OrderCreated());
+            // Mail::to('voshod8574@mail.ru')->send(new OrderCreated());
         } else {
             session()->flash('warning', 'Случилась ошибка!');
         }
